@@ -98,3 +98,26 @@ a {
     font-size: 1.2rem;
   }
 }
+/* LIST */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-headings);
+}
+.list__inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.list__ticks {
+  padding-left: 3rem;
+  list-style-image: url("../images/tick.svg");
+}
+.list__ticks .list__item {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .list__ticks .list__item {
+    padding-left: 0;
+  }
+}
