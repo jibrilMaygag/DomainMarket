@@ -71,3 +71,30 @@ a {
     font-size: 1.5rem;
   }
 }
+/* BADGES */
+.badge {
+  white-space: nowrap;
+  font-weight: 600px;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+.badge--primary {
+  color: white;
+  background-color: var(--color-primary);
+}
+.badge--secondary {
+  color: white;
+  background-color: var(--color-secondary);
+}
+.badge--small {
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
+  }
+}
