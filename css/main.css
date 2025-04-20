@@ -208,6 +208,10 @@ a {
   width: 100%;
   display: inline-block;
 }
+.btn--stretched {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
 
 @media screen and (min-width: 1024px) {
   .btn {
@@ -407,7 +411,7 @@ a {
 .grid {
   display: grid;
 }
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -442,5 +446,39 @@ a {
   }
   .testimonial .quote {
     margin-left: 6rem;
+  }
+}
+/* CALLOUT */
+.callout {
+  padding: 4rem;
+  border-radius: 5px;
+}
+.callout__content {
+  text-align: center;
+}
+.callout--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
+}
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+  .callout .btn {
+    justify-self: left;
+    margin: 0 2rem;
   }
 }
