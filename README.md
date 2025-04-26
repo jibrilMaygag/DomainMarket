@@ -6,7 +6,7 @@ It simulates a basic domain selling webpage.
 ## 🚀 Live Demo
 
 Check it out here:  
-👉 [https://remarkable-halva-8ae926.netlify.app/](https://remarkable-halva-8ae926.netlify.app/)
+👉 [https://domainmarket.netlify.app/](https://domainmarket.netlify.app/)
 
 ## 🛠️ Technologies Used
 
